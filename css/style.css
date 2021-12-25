@@ -1,0 +1,50 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a3ebe5;
+}
+
+#projects {
+  background-color: #a3ebe5;
+}
+
+section {
+  padding-top: 1rem;
+}
+
+.about {
+  padding-top: 3rem;
+}
+
+.kop {
+  text-align: start;
+  font-size: x-large;
+}
+
+.judul {
+  text-align: start;
+  font-size: 16px;
+}
+
+.jdl {
+  text-align: end;
+}
+
+.isi {
+  font-size: 16px;
+}
+
+.gbr {
+  padding-left: 00px;
+}
+
+.ct {
+  font-family: "Righteous";
+  font-size: 35px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.lnk {
+  color: #3b3b3b;
+  text-decoration: none;
+}

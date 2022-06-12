@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&family=Quicksand:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
 .nama {
-  font-family: "Concert One", sans-serif;
-  padding-top: 100px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 15vh;
 }
 
 .jumbotron {
@@ -63,4 +63,28 @@ nav a:hover {
 
 body {
   color: #3b3b3b;
+}
+
+.list {
+  width: 40%;
+  border-right: 10px solid #fff;
+  position: relative;
+  right: -51%;
+  padding-right: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .nama {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 5vh;
+  }
+
+  .list {
+    width: 60%;
+    position: relative;
+    right: -31%;
+    padding-right: 10px;
+    text-align: right;
+  }
 }

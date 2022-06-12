@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&family=Quicksand:wght@400;700&display=swap");
+
+.nama {
+  font-family: "Concert One", sans-serif;
+  padding-top: 100px;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #a3ebe5;
@@ -47,4 +54,13 @@ section {
 .lnk {
   color: #3b3b3b;
   text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  color: #3b3b3b;
 }

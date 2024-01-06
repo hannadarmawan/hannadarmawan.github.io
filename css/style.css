@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+.nama {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 15vh;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a3ebe5;
+}
+
+#projects {
+  background-color: #a3ebe5;
+}
+
+section {
+  padding-top: 1rem;
+}
+
+.about {
+  padding-top: 3rem;
+}
+
+.kop {
+  text-align: start;
+  font-size: x-large;
+}
+
+.judul {
+  text-align: start;
+  font-size: 16px;
+}
+
+.jdl {
+  text-align: end;
+}
+
+.isi {
+  font-size: 16px;
+}
+
+.gbr {
+  padding-left: 00px;
+}
+
+.ct {
+  font-family: "Righteous";
+  font-size: 35px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.lnk {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  color: #3b3b3b;
+}
+
+.list {
+  width: 40%;
+  border-right: 10px solid #fff;
+  position: relative;
+  right: -51%;
+  padding-right: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .nama {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 5vh;
+  }
+
+  .list {
+    width: 60%;
+    position: relative;
+    right: -31%;
+    padding-right: 10px;
+    text-align: right;
+  }
+}
